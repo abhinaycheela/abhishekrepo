@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AzureStorage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <script src="azure-storage.common.js"></script>
+<script src="azure-storage.blob.js"></script>
+</head>
+
+
+<body>
+    <input type="file" placeholder="upload files" onchange="fileEvent()" accept="image/*" multiple />
+    <button onclick="upload()">upload</button>
+
+    <div id="album"></div>
+
+</body>
+<script src="Script.js"></script>
+
+<!-- <script>
+ console.log(AzureStorage);
+
+</script> -->
+<style>
+
+    #album{
+        margin:10px 10px;
+    }
+</style>
+
+</html>
